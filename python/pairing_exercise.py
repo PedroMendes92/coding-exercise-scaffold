@@ -1,1 +1,0 @@
-name='Pairing exercise'

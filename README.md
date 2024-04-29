@@ -1,21 +1,16 @@
-# Coding Exercise Project
+# TypeScript
 
-This repository contains small skeleton projects in a number of programming languages. 
+Skeleton project for TypeScript (via NodeJS) with Jest for testing.
 
-It is designed to aid in the coding exercise stage of the Azarc's recruitment process for Software Engineers. 
+## Usage
+- `./script/setup` to install dependencies
+- `./script/test` to run the tests
 
+### Other commands
+- `yarn watch` will constantly compile `index.ts` then execute the compiled version on every file change (for quick development feedback loop) using [tsc-watch](https://www.npmjs.com/package/tsc-watch) under the hood.
 
-Note that there are no skeleton projects available for the Swift programming language. For iOS developer roles, coding exercises are ran in a blank Xcode playground.
+## Structure
+- Code located in [`index.ts`](./src/index.ts)
+- Tests located in [`index.test.ts`](./src/index.test.ts)
 
-## Setting up your environment
-
-For the coding exercise you will need to be able to do two things:
-
-- Write code in the language of your choice, sharing your screen to pair with the remote interviewer
-- Run that code
-- Optionally: write tests for the code you have written
-
-These skeleton projects can be used to set up such an environment quickly should you wish but are not required.
-
-If you have any issues with your environment please let your interviewer know as soon as you join the Hangout so that
-they can adjust the exercise accordingly.
+However, you're free to organise your code as you like. 
